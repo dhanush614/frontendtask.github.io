@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<title>FrontEnd UI Task</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<style>
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  margin-right: 15px;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.mySlides1 {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: orange;
+}
+</style>
+<body>
+
+<header class="w3-container w3-padding">
+<div class="w3-center w3-margin-top">
+<div class="w3-third  w3-animate-zoom">
+  <div style="min-height:200px">
+    <span class="fa-stack fa-4x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+</span> 
+  <h2>Learn a skill</h2><br>
+  </div>
+</div>
+
+<div class="w3-third w3-animate-zoom">
+  <div style="min-height:200px">
+    <span class="fa-stack fa-4x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+</span>
+  <h2>Build Profile</h2><br>
+  </div>
+</div>
+
+<div class="w3-third w3-animate-zoom">
+  <div style="min-height:200px">
+    <span class="fa-stack fa-4x">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
+</span>
+  <h2>Get Hired</h2><br>
+  </div>
+</div>
+      <button class="w3-btn w3-text-white w3-orange w3-hover-green" style="font-size:20px;">Get Started</button>
+</div>
+</header>
+
+  <br>
+  <div class="w3-center" style="width:5.2cm;margin:auto;">
+  <h1 class="w3-padding" style="border-bottom: 4px solid orange">Courses</h1>
+</div>
+<br><br><br>
+<div class="w3-row-padding w3-padding"> 
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+  <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card w3-hover-shadow w3-border">
+  <div class="w3-display-container w3-text-black">
+    <img src="img/large.jpg" style="width:100%">
+    <div class="w3-large w3-display-bottomleft w3-padding">Introduction to<br> Machine Learning</div>
+  </div>
+  <div class="w3-container w3-text-dark-gray">
+  <p>The Intro to ML Classification Models course is meant for developers or data scientists (or anybody else) who knows basic Python programming and wishes to learn about Machine Learning, with a focus on solving the problem of classification.</p>
+  </div>
+    <footer class="w3-large w3-padding">
+    <div>Rs. 1500 /-</div>
+  </footer>
+</div>
+</div>
+</div>
+<br>
+  <h4 class="w3-center" style="font-size:20px"><a class="w3-btn w3-hover-orange">View all</a></h4>
+<br>
+<div class="w3-center" style="width:5.2cm;margin:auto;">
+<h1 class="w3-padding" style="border-bottom: 4px solid orange">Trusted By</h1>
+</div><hr>
+<br><br>
+<div class="w3-content" style="max-width:1200px;position:relative">
+
+<img class="mySlides w3-animate-opacity" src="img/FrontendUITask1.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="img/FrontendUITask2.jpg" style="width:100%">
+
+<a class="w3-button w3-center w3-text-gray w3-hover-dark-grey" style="position:absolute;top:30%;left:0;" onclick="plusDivs(-1)">❮</a>
+<a class="w3-button w3-text-gray w3-hover-dark-grey" style="position:absolute;top:30%;right:0;" onclick="plusDivs(+1)">❯</a>
+</div>
+<hr>
+<br><br><br><br>
+<div class="w3-center" style="width:5.9cm;margin:auto;">
+<h1 class="w3-padding" style="border-bottom: 4px solid orange">Testimonials</h1>
+</div><hr>
+<div class="slideshow-container">
+
+<div class="mySlides1 w3-animate-opacity">
+  <div class="container">
+  <img class="w3-animate-zoom" src="img/pro.jpeg" alt="Avatar" style="width:170px">
+  <p class="w3-text-gray w3-large">It helps me a lot to think very creative to obtain an answer. I got an offer from Scapic and I am really very happy to be the part of guvi </p>
+  <p class="w3-text-dark-gray w3-large"><span class="w3-xlarge w3-text-black"><b>Dhanush</b></span>-  Graphic Designer - Scapic</p>
+</div>
+</div>
+
+<div class="mySlides1 w3-animate-opacity">
+  <div class="container">
+  <img class="w3-animate-zoom" src="img/pro1.jpeg" alt="Avatar" style="width:170px">
+  <p class="w3-text-gray w3-large">It helps me a lot to think very creative to obtain an answer. I got an offer from Scapic and I am really very happy to be the part of guvi</p>
+  <p class="w3-text-dark-gray w3-large"><span class="w3-xlarge w3-text-black"><b>Anbu</b></span>-  Software Engineer - Scapic</p>
+</div>
+</div>
+
+<div class="mySlides1 w3-animate-opacity">
+  <div class="container">
+  <img class="w3-animate-zoom" src="img/pro.jpeg" alt="Avatar" style="width:170px">
+  <p class="w3-text-gray w3-large">It helps me a lot to think very creative to obtain an answer. I got an offer from Scapic and I am really very happy to be the part of guvi</p>
+  <p class="w3-text-dark-gray w3-large"><span class="w3-xlarge w3-text-black"><b>Antony</b></span>-  Software Engineer - Scapic</p>
+</div>
+</div>
+
+<div class="mySlides1 w3-animate-opacity">
+  <div class="container">
+  <img class="w3-animate-zoom" src="img/pro2.jpeg" alt="Avatar" style="width:170px">
+  <p class="w3-text-gray w3-large">It helps me a lot to think very creative to obtain an answer. I got an offer from Scapic and I am really very happy to be the part of guvi</p>
+  <p class="w3-text-dark-gray w3-large"><span class="w3-xlarge w3-text-black"><b>Allwin</b></span>-  Software Engineer - Scapic</p>
+</div>
+</div>
+
+<div class="mySlides1 w3-animate-opacity">
+  <div class="container">
+  <img class="w3-animate-zoom" src="img/pro.jpg" alt="Avatar" style="width:170px">
+  <p class="w3-text-gray w3-large">It helps me a lot to think very creative to obtain an answer. I got an offer from Scapic and I am really very happy to be the part of guvi</p>
+  <p class="w3-text-dark-gray w3-large"><span class="w3-xlarge w3-text-black"><b>Sathish</b></span>-  Software Engineer - Scapic</p>
+</div>
+</div>
+</div>
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>  
+</div>
+
+<hr>
+<br>
+
+<footer class="w3-container w3-theme-dark w3-padding-16">
+
+  <p>
+    <a class="w3-btn w3-large w3-text-gray w3-hover-orange">About us</a>
+    <a class="w3-btn w3-large w3-text-gray w3-hover-orange">Contact</a>
+    <a class="w3-btn w3-large w3-text-gray w3-hover-orange">Career</a>
+    <a class="w3-btn w3-large w3-text-gray w3-hover-orange">Team</a>
+    <a class="w3-btn w3-large w3-text-gray w3-hover-orange">Jobs</a>
+    <a class="w3-btn w3-large w3-text-gray w3-hover-orange">T&C</a>
+    <a class="w3-right w3-large w3-text-gray w3-padding">Copyright &copy; 2018 Dhanush</a>
+  </p>
+</footer>
+
+<script>
+var slideIndex = 1;
+
+function plusDivs(n) {
+slideIndex = slideIndex + n;
+showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+var slideIndex1 = 1;
+showSlides(slideIndex1);
+
+function currentSlide(n) {
+  showSlides(slideIndex1 = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex1-1].style.display = "block";  
+  dots[slideIndex1-1].className += " active";
+}
+
+var si = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides1");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    si++;
+    if (si > x.length) {si = 1} 
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    x[si-1].style.display = "block"; 
+    dots[si-1].className += " active";
+    setTimeout(carousel, 2000); 
+}
+
+var si2 = 0;
+carousel1();
+
+function carousel1() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    si2++;
+    if (si2 > x.length) {si2 = 1}
+    x[si2-1].style.display = "block"; 
+    setTimeout(carousel1, 2000); 
+}
+</script>
+
+</body>
+</html>
